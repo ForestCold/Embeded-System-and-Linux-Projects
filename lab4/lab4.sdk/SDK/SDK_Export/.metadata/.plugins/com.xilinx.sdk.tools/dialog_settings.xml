@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="hw_platform_0-verifyFlash"/>
+	<item value="" key="hw_platform_0-offSet"/>
+	<item value="qspi_single" key="hw_platform_0-flashType"/>
+	<item value="" key="hw_platform_0-fsblFile"/>
+	<item value="" key="hw_platform_0-imgFile"/>
+</section>

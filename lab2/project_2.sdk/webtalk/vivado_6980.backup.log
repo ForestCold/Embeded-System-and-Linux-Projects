@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Mar 24 11:56:28 2015
+# Process ID: 4352
+# Log file: E:/class/Project/Lab1/Lab1.sdk/webtalk/vivado.log
+# Journal file: E:/class/Project/Lab1/Lab1.sdk/webtalk\vivado.jou
+#-----------------------------------------------------------
+source sdk.tcl
+# webtalk_init -webtalk_dir E:\\class\\Project\\Lab1\\Lab1.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "星期二 三月 24 11:56:25 2015" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "SDK v2014.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2014.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "SDK" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "k2rcvdvpq9ujvibul1j7vops12" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2014.2_5" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "Microsoft Windows 7 , 64-bit" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "Service Pack 1  (build 7601)" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "AMD A6-3430MX APU with Radeon(tm) HD Graphics" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "1696 MHz" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "5.000 GB" -context "user_environment"
+# webtalk_register_client -client sdk
+# webtalk_add_data -client sdk -key uid -value "1427169368194" -context "sdk\\\\hardware/1427169368194"
+# webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1427169368194"
+# webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1427169368194"
+# webtalk_add_data -client sdk -key VivadoVersion -value "2014.2" -context "sdk\\\\hardware/1427169368194"
+# webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1427169368194"
+# webtalk_add_data -client sdk -key Device -value "7z010" -context "sdk\\\\hardware/1427169368194"
+# webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1427169368194"
+# webtalk_transmit -clientid 3172412716 -regid "" -xml E:\\class\\Project\\Lab1\\Lab1.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html E:\\class\\Project\\Lab1\\Lab1.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm E:\\class\\Project\\Lab1\\Lab1.sdk\\webtalk\\sdk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
+
+    while executing
+"webtalk_transmit -clientid 3172412716 -regid "" -xml E:\\class\\Project\\Lab1\\Lab1.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html E:\\class\\Projec..."
+    (file "sdk.tcl" line 32)
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 24 11:56:31 2015...

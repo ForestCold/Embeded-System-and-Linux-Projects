@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Apr 14 19:07:25 2015
+# Process ID: 6284
+# Log file: E:/class/Project/project_2/project_2.runs/impl_1/system_wrapper.vdi
+# Journal file: E:/class/Project/project_2/project_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+Command: open_checkpoint system_wrapper_routed.dcp
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - F:/software/Vivado/2014.2/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml, The board part 'xc7k325tffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - F:/software/Vivado/2014.2/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml, The board part 'xc7k325tffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - F:/software/Vivado/2014.2/data/boards/board_parts/zynq/zc706/0.9/board_part.xml, The board part 'xc7z045ffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - F:/software/Vivado/2014.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml, The board part 'xc7z045ffg900-2' is either not supported or invalid.
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from F:/software/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockRegion.xml
+Loading clock buffers from F:/software/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockBuffers.xml
+Loading clock placement rules from F:/software/Vivado/2014.2/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from F:/software/Vivado/2014.2/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from F:/software/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/clg400/Package.xml
+Loading io standards from F:/software/Vivado/2014.2/data\./parts/xilinx/zynq/IOStandards.xml
+Parsing XDC File [E:/class/Project/project_2/project_2.runs/impl_1/.Xil/Vivado-6284-Samsung-PC/dcp/system_wrapper_board.xdc]
+Finished Parsing XDC File [E:/class/Project/project_2/project_2.runs/impl_1/.Xil/Vivado-6284-Samsung-PC/dcp/system_wrapper_board.xdc]
+Parsing XDC File [E:/class/Project/project_2/project_2.runs/impl_1/.Xil/Vivado-6284-Samsung-PC/dcp/system_wrapper_early.xdc]
+Finished Parsing XDC File [E:/class/Project/project_2/project_2.runs/impl_1/.Xil/Vivado-6284-Samsung-PC/dcp/system_wrapper_early.xdc]
+Parsing XDC File [E:/class/Project/project_2/project_2.runs/impl_1/.Xil/Vivado-6284-Samsung-PC/dcp/system_wrapper.xdc]
+Finished Parsing XDC File [E:/class/Project/project_2/project_2.runs/impl_1/.Xil/Vivado-6284-Samsung-PC/dcp/system_wrapper.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.483 . Memory (MB): peak = 447.629 ; gain = 0.000
+Restoring placement.
+Restored 400 out of 400 XDEF sites from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-484] Checkpoint was created with build 932637
+open_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 448.570 ; gain = 277.441
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./system_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory for users of free Webpack licenses. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-185] WebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:01:08 ; elapsed = 00:01:25 . Memory (MB): peak = 799.594 ; gain = 351.023
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 19:09:12 2015...

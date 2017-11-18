@@ -1,0 +1,269 @@
+08:59:00.875 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:09:32.885 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:09:34.257 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:09:34.269 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:09:34.339 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:09:34.340 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:09:34.345 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:09:34.346 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:09:34.348 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:09:34.455 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:09:36.962 INFO  - Updating hardware inferred compiler options for mem_test. 
+09:09:36.971 INFO  - Clearing existing target manager status. 
+09:11:03.730 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:11:04.905 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:11:04.918 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:11:04.983 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:11:04.984 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:11:04.989 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:11:04.990 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:11:04.991 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:11:05.124 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:11:35.406 INFO  - Updating hardware inferred compiler options for mem_test. 
+09:11:35.458 INFO  - Clearing existing target manager status. 
+09:22:49.859 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:22:53.159 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:22:53.304 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:22:53.403 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:22:53.405 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:22:53.409 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:22:53.410 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:22:53.411 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:22:53.569 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:23:46.339 INFO  - Updating hardware inferred compiler options for mem_test. 
+09:23:46.387 INFO  - Clearing existing target manager status. 
+09:24:35.088 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:24:35.188 INFO  - PS initialization will be done as it is not done before. 
+09:24:35.188 INFO  - Running PS initialization.... 
+09:24:35.381 INFO  - ps7_init is completed. 
+09:24:35.481 INFO  - PS Initialization is complete. 
+09:25:58.566 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:25:58.666 INFO  - PS initialization will be done as it is not done before. 
+09:25:58.666 INFO  - Running PS initialization.... 
+09:25:58.858 INFO  - ps7_init is completed. 
+09:25:58.958 INFO  - PS Initialization is complete. 
+09:32:29.925 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:32:47.134 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+
+09:32:47.134 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+09:33:47.093 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+09:33:47.093 ERROR - Timeout occured while waiting to get reply for command "targets 64" 
+09:33:47.095 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:33:47.095 ERROR - Unexpected error while issuing command {"command": "xdisconnect 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:33:47.095 ERROR - Disconnect target failed. 
+09:35:40.429 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:35:44.124 ERROR - Unexpected error while issuing command {"command": "targets 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:35:44.125 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:35:44.125 ERROR - Unexpected error while issuing command {"command": "xdisconnect 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:35:44.125 ERROR - Disconnect target failed. 
+09:36:09.207 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:36:13.736 ERROR - Unexpected error while issuing command {"command": "targets 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:36:13.736 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:36:13.737 ERROR - Unexpected error while issuing command {"command": "xdisconnect 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:36:13.737 ERROR - Disconnect target failed. 
+09:36:38.282 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:36:42.271 ERROR - Unexpected error while issuing command {"command": "targets 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:36:42.272 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:36:42.272 ERROR - Unexpected error while issuing command {"command": "xdisconnect 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:36:42.272 ERROR - Disconnect target failed. 
+09:37:28.069 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:37:29.824 ERROR - Unexpected error while issuing command {"command": "targets 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:37:29.825 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:37:29.825 ERROR - Unexpected error while issuing command {"command": "xdisconnect 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:37:29.825 ERROR - Disconnect target failed. 
+09:38:17.728 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:38:20.559 ERROR - Unexpected error while issuing command {"command": "targets 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:38:20.560 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:38:20.560 ERROR - Unexpected error while issuing command {"command": "xdisconnect 64"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+09:38:20.560 ERROR - Disconnect target failed. 
+09:40:30.051 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+09:41:13.172 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:41:14.830 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:41:14.851 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:41:15.016 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:41:15.017 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:41:15.024 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:41:15.025 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:41:15.029 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:41:15.196 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:41:43.406 INFO  - Updating hardware inferred compiler options for mem_test. 
+09:41:43.457 INFO  - Clearing existing target manager status. 
+09:45:19.582 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:45:20.749 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:45:20.764 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:45:20.831 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:45:20.832 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:45:20.838 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:45:20.839 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:45:20.840 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:45:20.972 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:45:23.648 INFO  - Updating hardware inferred compiler options for mem_test. 
+09:45:23.692 INFO  - Clearing existing target manager status. 
+09:47:49.330 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:47:50.674 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+09:47:50.685 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:47:50.759 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:47:50.761 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:47:50.767 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:47:50.768 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:47:50.770 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:47:50.884 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:48:20.926 INFO  - Updating hardware inferred compiler options for mem_test. 
+09:48:20.976 INFO  - Clearing existing target manager status. 
+10:03:30.580 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+10:03:31.983 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+10:03:32.027 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+10:03:32.094 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+10:03:32.095 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+10:03:32.100 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+10:03:32.101 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+10:03:32.102 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+10:03:32.209 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:04:07.858 INFO  - Updating hardware inferred compiler options for mem_test. 
+10:04:07.900 INFO  - Clearing existing target manager status. 
+10:09:54.536 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+
+10:09:54.536 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+10:10:35.559 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+10:10:35.559 ERROR - Timeout occured while waiting to get reply for command "xload hw E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw_platform_0/system.xml" 
+10:10:35.560 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setHwPlatform(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:10:56.979 ERROR - Unexpected error while issuing command {"command": "xload hw E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw_platform_0/system.xml"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+10:10:56.980 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setHwPlatform(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:19:15.545 ERROR - Unexpected error while issuing command {"command": "xload hw E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw_platform_0/system.xml"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+10:19:15.545 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setHwPlatform(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:19:23.878 ERROR - Unexpected error while issuing command {"command": "xload hw E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw_platform_0/system.xml"} to XMD: java.net.SocketException: Software caused connection abort: socket write error 
+10:19:23.878 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setHwPlatform(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:20:10.928 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+10:20:12.348 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+10:20:12.360 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+10:20:12.439 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+10:20:12.441 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+10:20:12.445 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+10:20:12.447 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+10:20:12.448 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+10:20:12.559 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:20:48.128 INFO  - Updating hardware inferred compiler options for mem_test. 
+10:20:48.186 INFO  - Clearing existing target manager status. 
+10:24:15.323 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+10:24:16.743 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+10:24:16.757 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+10:24:16.826 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+10:24:16.827 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+10:24:16.832 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+10:24:16.833 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+10:24:16.834 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+10:24:16.948 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:24:48.567 INFO  - Updating hardware inferred compiler options for mem_test. 
+10:24:48.597 INFO  - Clearing existing target manager status. 
+14:51:32.388 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+14:51:35.038 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+14:51:35.143 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:51:35.232 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:51:35.234 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:51:35.238 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:51:35.239 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:51:35.241 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:51:35.394 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:52:33.401 INFO  - Updating hardware inferred compiler options for mem_test. 
+14:52:33.455 INFO  - Clearing existing target manager status. 
+14:56:25.513 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+14:56:26.632 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+14:56:26.645 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:56:26.711 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:56:26.712 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:56:26.717 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:56:26.718 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:56:26.720 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:56:26.852 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:56:57.577 INFO  - Updating hardware inferred compiler options for mem_test. 
+14:56:57.620 INFO  - Clearing existing target manager status. 
+15:57:37.615 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+15:57:39.397 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+15:57:42.756 INFO  - Project hw_platform_0's source hardware specification located at E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:00:19.743 ERROR - Unable to save current hardware specification file in a temporary location. 
+16:00:19.747 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:00:19.814 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:00:19.816 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:00:19.820 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:00:19.822 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:00:19.823 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:00:20.269 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:00:20.315 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:00:20.317 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:00:20.321 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:00:20.322 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:00:20.323 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:00:20.436 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:00:48.997 INFO  - Updating hardware inferred compiler options for mem_test. 
+16:00:49.028 INFO  - Clearing existing target manager status. 
+16:18:19.182 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+16:18:20.488 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+16:18:20.501 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:18:20.570 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:18:20.572 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:18:20.576 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:18:20.577 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:18:20.579 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:18:20.690 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:18:23.314 INFO  - Updating hardware inferred compiler options for mem_test. 
+16:18:23.366 INFO  - Clearing existing target manager status. 
+16:23:31.420 INFO  - Processing command line option -hwspec E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+16:23:32.847 INFO  - The hardware specification for project 'hw_platform_0' is different from E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+16:23:36.597 INFO  - Project hw_platform_0's source hardware specification located at E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:25:18.625 ERROR - Unable to save current hardware specification file in a temporary location. 
+16:25:18.629 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:25:18.682 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:25:18.684 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:25:18.688 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:25:18.689 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:25:18.690 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:25:18.781 INFO  - Copied contents of E:/university/learning/Xilinx/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:25:18.841 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:25:18.842 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:25:18.846 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:25:18.847 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:25:18.848 INFO  - Copied contents of E:\university\learning\Xilinx\labs\lab1\lab1.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:25:18.956 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:25:20.973 INFO  - Updating hardware inferred compiler options for mem_test. 
+16:25:20.980 INFO  - Clearing existing target manager status. 

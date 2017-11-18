@@ -1,0 +1,887 @@
+13:20:36 **** Build of project mem_test_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling standalone"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+13:20:56 **** Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/memory_config_g.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.d" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.d" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/ps7_cortexa9_0/lib -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26136	   1136	  14436	  41708	   a2ec	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+13:23:06 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+20:55:09 **** Auto Build of project mem_test_bsp ****
+make -k all 
+'Finished building libraries'
+20:55:19 **** Auto Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+20:55:27 **** Clean-only build of project mem_test_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+20:55:32 **** Clean-only build of configuration Debug for project mem_test ****
+make clean 
+rm -rf  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o  ./src/memory_config_g.d ./src/memorytest.d ./src/platform.d  mem_test.elf.size  mem_test.elf
+' '
+20:55:35 **** Build of project mem_test_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+20:58:37 **** Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+
+**** Build of configuration Debug for project TestApp ****
+
+Nothing to build for project TestApp
+21:04:52 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23820	   1136	  22628	  47584	   b9e0	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+21:27:00 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:30:34 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:32:00 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:33:07 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:35:54 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:42:03 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:45:16 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:45:32 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:46:34 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:46:54 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:50:38 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:56:11 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+21:56:14 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+21:58:47 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+21:59:25 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+22:01:10 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+22:03:45 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+22:09:39 **** Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+
+**** Build of configuration Debug for project TestApp ****
+
+Nothing to build for project TestApp
+22:12:04 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23820	   1136	  22628	  47584	   b9e0	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+22:13:27 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+22:13:52 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+22:14:57 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+13:20:26 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+13:20:29 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+13:20:32 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+13:20:42 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+13:21:31 **** Clean-only build of configuration Debug for project TestApp ****
+make clean 
+rm -rf  ./src/lab2.o  ./src/lab2.d  TestApp.elf.size  TestApp.elf
+' '
+13:21:32 **** Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling bram"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+13:22:40 **** Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23820	   1136	  22628	  47584	   b9e0	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+
+**** Build of configuration Debug for project lab4 ****
+
+Nothing to build for project lab4
+13:28:38 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:15:27: error: 'XPAR_DIP_DEVICE_ID' undeclared (first use in this function)
+../src/lab4.c:15:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab4.c:18:28: error: 'XPAR_PUSH_DEVICE_ID' undeclared (first use in this function)
+make: *** [src/lab4.o] ´íÎó 1
+10:55:55 **** Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+10:55:57 **** Clean-only build of configuration Debug for project lab4 ****
+make clean 
+rm -rf  ./src/lab4.o  ./src/lab4.d  lab4.elf.size  lab4.elf
+' '
+10:55:58 **** Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23820	   1136	  22628	  47584	   b9e0	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+11:04:21 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+11:04:26 **** Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       -lp C:/Users/pc/Desktop/labs/led_ip/managed_ip_project/led_ip_1.0 -lp ..\..\..\..\..\led_ip\managed_ip_project\led_ip_1.0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -lp
+C:/Users/pc/Desktop/labs/led_ip/managed_ip_project/led_ip_1.0 -lp
+..\..\..\..\..\led_ip\managed_ip_project\led_ip_1.0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling bram"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+11:05:37 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+11:08:06 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+11:08:10 **** Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+	       -lp C:/Users/pc/Desktop/labs/led_ip/managed_ip_project/led_ip_1.0 -lp ..\..\..\..\..\led_ip\managed_ip_project\led_ip_1.0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -lp
+C:/Users/pc/Desktop/labs/led_ip/managed_ip_project/led_ip_1.0 -lp
+..\..\..\..\..\led_ip\managed_ip_project\led_ip_1.0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling bram"
+"Compiling gpio"
+"Compiling led_ip..."
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+11:09:18 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+09:52:33 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23820	   1136	  22628	  47584	   b9e0	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+09:53:00 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23840	   1136	  22628	  47604	   b9f4	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+10:01:55 **** Incremental Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+10:08:41 **** Incremental Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+10:09:08 **** Clean-only build of configuration Debug for project lab4 ****
+make clean 
+rm -rf  ./src/lab4.o  ./src/lab4.d  lab4.elf.size  lab4.elf
+' '
+10:09:09 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23840	   1136	   8292	  33268	   81f4	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+10:10:59 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:26:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+../src/lab4.c:26:4: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: lab4.elf section `.text' will not fit in region `axi_bram_ctrl_0_S_AXI_BASEADDR'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: region `axi_bram_ctrl_0_S_AXI_BASEADDR' overflowed by 37740 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab4.elf] ´íÎó 1
+10:12:19 **** Clean-only build of configuration Debug for project lab4 ****
+make clean 
+rm -rf  ./src/lab4.o  ./src/lab4.d  lab4.elf.size  lab4.elf
+' '
+10:12:20 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.d" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:26:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+../src/lab4.c:26:4: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63164	   2304	   8356	  73824	  12060	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+10:13:02 **** Incremental Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project lab5 ****
+
+Nothing to build for project lab5
+10:34:28 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c:8:1: error: unknown type name 'XScuTimer'
+../src/lab5.c: In function 'main':
+../src/lab5.c:19:4: error: unknown type name 'XScuTimer_Config'
+../src/lab5.c:20:4: error: unknown type name 'XScuTimer'
+../src/lab5.c:24:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:24:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:27:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:48:5: warning: implicit declaration of function 'XScuTimer_Stop' [-Wimplicit-function-declaration]
+../src/lab5.c:59:4: warning: implicit declaration of function 'XScuTimer_IsExpired' [-Wimplicit-function-declaration]
+../src/lab5.c:19:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:16:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:16:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+10:39:59 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:20:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+10:45:09 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:34:29: error: expected expression before 'XScuTimer'
+../src/lab5.c:34:29: error: too few arguments to function 'XScuTimer_CfgInitialize'
+In file included from ../src/lab5.c:6:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xscutimer.h:354:5: note: declared here
+../src/lab5.c:37:4: error: expected ';' before 'dip_check_prev'
+../src/lab5.c:20:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+10:47:57 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:34:29: error: expected expression before 'XScuTimer'
+../src/lab5.c:34:29: error: too few arguments to function 'XScuTimer_CfgInitialize'
+In file included from ../src/lab5.c:6:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/XScuTimer.h:354:5: note: declared here
+../src/lab5.c:37:4: error: expected ';' before 'dip_check_prev'
+../src/lab5.c:20:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+10:49:31 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:34:29: error: expected expression before 'XScuTimer'
+../src/lab5.c:34:29: error: too few arguments to function 'XScuTimer_CfgInitialize'
+In file included from ../src/lab5.c:6:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/XScuTimer.h:354:5: note: declared here
+../src/lab5.c:37:4: error: expected ';' before 'dip_check_prev'
+../src/lab5.c:20:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+10:49:44 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:34:29: error: expected expression before 'XScuTimer'
+../src/lab5.c:34:29: error: too few arguments to function 'XScuTimer_CfgInitialize'
+In file included from ../src/lab5.c:6:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/XScuTimer.h:354:5: note: declared here
+../src/lab5.c:20:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+10:50:53 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:34:29: error: expected expression before 'XScuTimer'
+../src/lab5.c:34:29: error: too few arguments to function 'XScuTimer_CfgInitialize'
+In file included from ../src/lab5.c:6:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/XScuTimer.h:354:5: note: declared here
+../src/lab5.c:20:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+../src/lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+../src/lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+make: *** [src/lab5.o] ´íÎó 1
+11:02:55 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:73:5: error: 'XPRA_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+make: *** [src/lab5.o] ´íÎó 1
+11:03:16 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:73:5: error: 'XPRA_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+make: *** [src/lab5.o] ´íÎó 1
+11:06:13 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+11:06:14 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:25:27: error: 'XPAR_SW_8BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:25:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:28:28: error: 'XPAR_BTNS_5BIT_DEVICE_ID' undeclared (first use in this function)
+../src/lab5.c:73:5: error: 'XPRA_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+make: *** [src/lab5.o] ´íÎó 1
+11:07:36 **** Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+11:08:05 **** Clean-only build of configuration Debug for project lab5 ****
+make clean 
+rm -rf  ./src/lab5.o  ./src/lab5.d  lab5.elf.size  lab5.elf
+' '
+11:08:06 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:73:5: error: 'XPRA_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+../src/lab5.c:73:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/lab5.o] ´íÎó 1
+11:09:08 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24980	   1144	  22644	  48768	   be80	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+11:10:12 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:73:5: error: 'XPRA_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+../src/lab5.c:73:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/lab5.o] ´íÎó 1
+11:10:31 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24980	   1144	  22644	  48768	   be80	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+11:12:13 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:14:36 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:15:45 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:19:17 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:21:06 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:23:27 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:27:23 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+10:20:57 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+10:23:21 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+10:28:48 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+10:38:52 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+10:48:02 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+10:51:23 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,3 @@
+PROCESSOR=ps7_cortexa9_0
+REPOSITORIES=-lp C:/Users/pc/Desktop/labs/led_ip/managed_ip_project/led_ip_1.0 -lp ..\..\..\..\..\led_ip\managed_ip_project\led_ip_1.0
+HWSPEC=../hw_platform_0/system.xml

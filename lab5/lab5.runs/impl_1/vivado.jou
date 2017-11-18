@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Tue May 26 11:22:30 2015
+# Process ID: 5588
+# Log file: C:/Users/pc/Desktop/labs/lab4/lab4.runs/impl_1/system_wrapper.rdi
+# Journal file: C:/Users/pc/Desktop/labs/lab4/lab4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

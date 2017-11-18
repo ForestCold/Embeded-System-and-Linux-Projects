@@ -1,0 +1,166 @@
+11:56:06 INFO  : Processing command line option -hwspec E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+11:57:10 INFO  : Processing command line option -hwspec E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+11:57:10 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:57:10 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1427169402905,  Project:1427169349786
+11:57:10 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+11:57:10 INFO  : Copied contents of E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+11:57:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:57:11 INFO  : Clearing existing target manager status.
+11:57:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:59:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:00:25 INFO  : Processing command line option -hwspec E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+12:00:26 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+13:43:23 INFO  : Processing command line option -hwspec E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+13:43:26 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+13:43:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1427348546469,  Project:1427169402905
+13:43:57 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+13:43:57 INFO  : Copied contents of E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+13:43:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:43:59 INFO  : Clearing existing target manager status.
+13:44:05 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:04:06 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:05:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:05:37 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:09:47 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:10:54 INFO  : ps7_init is completed.
+15:10:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:11:42 INFO  : ps7_init is completed.
+15:11:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:12:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:14:22 INFO  : ps7_init is completed.
+15:14:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:22 INFO  : ps7_init is completed.
+15:38:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:38:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:44:21 INFO  : Processing command line option -hwspec E:/class/Project/Lab1/Lab1.sdk/system_wrapper.hdf.
+15:44:21 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+15:45:50 INFO  : ps7_init is completed.
+15:45:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:01:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:08:34 INFO  : Processing command line option -hwspec E:/class/Project/project_2/project_2.sdk/system_wrapper.hdf.
+13:10:09 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\Lab1\Lab1.sdk\mem_test_bsp\system.mss
+13:10:09 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\Lab1\Lab1.sdk\mem_test_bsp\system.mss
+18:55:34 INFO  : Processing command line option -hwspec E:/class/Project/project_2/project_2.sdk/system_wrapper.hdf.
+18:55:35 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+18:59:11 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+19:00:42 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+19:02:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:14:47 INFO  : Processing command line option -hwspec E:/class/Project/project_2/project_2.sdk/system_wrapper.hdf.
+19:14:48 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+19:15:31 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+19:31:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:20:14 INFO  : Processing command line option -hwspec E:/class/Project/project_2/project_2.sdk/system_wrapper.hdf.
+20:20:15 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+20:41:36 INFO  : Processing command line option -hwspec E:/class/Project/project_2/project_2.sdk/system_wrapper.hdf.
+20:41:37 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+20:42:28 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+20:44:29 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+20:47:18 INFO  : Project standalone_bsp_0 was a BSP project. Please update references.
+20:47:18 ERROR : SDK has detected that project standalone_bsp_0 has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references.
+20:50:06 INFO  : Refreshed build settings on project TestApp
+20:50:45 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+21:36:21 INFO  : FPGA configured successfully with bitstream "E:/class/Project/project_2/project_2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+21:37:19 INFO  : ps7_init is completed.
+21:37:19 INFO  : ps7_post_config is completed.
+21:37:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:39:02 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:338)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+21:39:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
